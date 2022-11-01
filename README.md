@@ -13,5 +13,4 @@ Le joueur peut de manière très immerrsive intéragir avec les bulles.
 
 ## TODO
 - Ajouter la salle de classe (préfab)
-- Ajouter les premières versions des bulles
 - Réfléchir à un scénario (ensembles de scènes traversées)
