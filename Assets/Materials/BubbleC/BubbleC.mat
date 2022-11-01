@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: BubbleBW
-  m_Shader: {fileID: -6465566751694194690, guid: 53e34c21dcf068b48a10d77e5751dbc3, type: 3}
+  m_Name: BubbleC
+  m_Shader: {fileID: -6465566751694194690, guid: 9ea8d1f25746ba9468936d23689e37b9, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -56,6 +56,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_ef950116b6a847ecb9f6c0b82a123fb1_Texture_1:
+        m_Texture: {fileID: 2800000, guid: b1034b80e2745b44b98a432ec7e71a62, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
     - _BUILTIN_QueueControl: 0
@@ -80,7 +84,7 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
---- !u!114 &2896671705473633619
+--- !u!114 &4420697188714823204
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
