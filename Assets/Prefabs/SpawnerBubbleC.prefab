@@ -45,3 +45,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materialRef: {fileID: 2100000, guid: 1b05b587b75e375448936550d4751862, type: 2}
+  floatSpeed: {x: 0, y: 1, z: 0}
