@@ -44,9 +44,11 @@ public class Spawner : MonoBehaviour
     public Material materialRef;
     private int compteur;
     public float scale=1;
+    public int delay;
     public float minSpeed;
     public float maxSpeed;
     public float radius;
+    public float height;
 
     // Start is called before the first frame update
     void Start()
@@ -57,13 +59,13 @@ public class Spawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (compteur == 100)
+        if (compteur == delay)
         {
             Bubble new_bubble = new Bubble(materialRef,scale,minSpeed,maxSpeed);
             new_bubble.sphere.transform.parent = gameObject.transform;
             System.Random rd = new System.Random();
             double randomPos1 = rd.NextDouble() * radius; 
-            double randomPos2 = rd.NextDouble() * radius; 
+            double randomPos2 = rd.NextDouble() * height; 
             double randomPos3 = rd.NextDouble() * radius;
             new_bubble.sphere.transform.position = transform.position + new Vector3((float)randomPos1,(float)randomPos2,(float)randomPos3);
             compteur = 0;
