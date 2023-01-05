@@ -9,12 +9,13 @@ public class BubbleRepulse : MonoBehaviour
     public float floatRepulseCoefficient = 1;
     public float controlerMass = 2;
     
-    public GameObject Player;
+    private GameObject Player;
 
     // Start is called before the first frame update
     void Start()
     {
         m_Rigidbody = GetComponent<Rigidbody>();
+        Player = GameObject.FindGameObjectsWithTag("Player")[0];
     }
 
     // Update is called once per frame
