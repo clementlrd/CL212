@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7636763254822434940}
   - component: {fileID: 7636763254822434941}
   - component: {fileID: 7636763254822434938}
+  - component: {fileID: 5025242210993877371}
   m_Layer: 0
   m_Name: pieds (3)
   m_TagString: Untagged
@@ -97,6 +98,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &5025242210993877371
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7636763254822434936}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &7636763254878978280
 GameObject:
   m_ObjectHideFlags: 0
@@ -145,6 +162,7 @@ GameObject:
   - component: {fileID: 7636763255579680889}
   - component: {fileID: 7636763255579680886}
   - component: {fileID: 7636763255579680887}
+  - component: {fileID: 3168741910446264355}
   m_Layer: 0
   m_Name: dessus
   m_TagString: Untagged
@@ -230,6 +248,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &3168741910446264355
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7636763255579680885}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &7636763255681626421
 GameObject:
   m_ObjectHideFlags: 0
@@ -242,6 +276,7 @@ GameObject:
   - component: {fileID: 7636763255681626425}
   - component: {fileID: 7636763255681626422}
   - component: {fileID: 7636763255681626423}
+  - component: {fileID: 5298346269409675294}
   m_Layer: 0
   m_Name: pieds (1)
   m_TagString: Untagged
@@ -327,6 +362,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &5298346269409675294
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7636763255681626421}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &7636763256532534637
 GameObject:
   m_ObjectHideFlags: 0
@@ -339,6 +390,7 @@ GameObject:
   - component: {fileID: 7636763256532534641}
   - component: {fileID: 7636763256532534638}
   - component: {fileID: 7636763256532534639}
+  - component: {fileID: 1740215022086373791}
   m_Layer: 0
   m_Name: pieds (2)
   m_TagString: Untagged
@@ -424,6 +476,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &1740215022086373791
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7636763256532534637}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &7636763256654748417
 GameObject:
   m_ObjectHideFlags: 0
@@ -436,6 +504,7 @@ GameObject:
   - component: {fileID: 7636763256654748421}
   - component: {fileID: 7636763256654748418}
   - component: {fileID: 7636763256654748419}
+  - component: {fileID: 5610375982344472877}
   m_Layer: 0
   m_Name: pieds
   m_TagString: Untagged
@@ -521,3 +590,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &5610375982344472877
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7636763256654748417}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
