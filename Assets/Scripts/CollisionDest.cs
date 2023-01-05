@@ -14,9 +14,9 @@ public class CollisionDest : MonoBehaviour
 
     void OnTriggerEnter(Collider col)
     {
-        switch (col.gameObject.name)
+        switch (col.gameObject.tag)
         {
-            case "Sphere":
+            case "Bubble":
                 break;
             default:
                 Destroy(this.bubble);
