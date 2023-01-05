@@ -5,17 +5,18 @@ using UnityEngine;
 public class CollisionDest : MonoBehaviour
 {
     public GameObject bubble;
+
     // Start is called before the first frame update
     void Start()
     {
-
+   
     }
 
     void OnTriggerEnter(Collider col)
     {
-        switch (col.gameObject.tag)
+        switch (col.gameObject.name)
         {
-            case "Bubble":
+            case "Sphere":
                 break;
             default:
                 Destroy(this.bubble);
@@ -23,8 +24,8 @@ public class CollisionDest : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    void Update()
+            // Update is called once per frame
+            void Update()
     {
         
     }
