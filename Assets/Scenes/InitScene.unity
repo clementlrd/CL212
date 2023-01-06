@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028331, g: 0.2257133, b: 0.3069217, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1618,7 +1618,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5769684058183236019, guid: 3d9d70dd13fe59042ad7d53f668237b4, type: 3}
       propertyPath: delay
-      value: 0
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 5769684058183236019, guid: 3d9d70dd13fe59042ad7d53f668237b4, type: 3}
       propertyPath: height
@@ -2466,7 +2466,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3659037171159376927, guid: 21ccdd26de76534449fbe897b2ee5965, type: 3}
       propertyPath: delay
-      value: 0
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 3659037171159376927, guid: 21ccdd26de76534449fbe897b2ee5965, type: 3}
       propertyPath: height
@@ -3348,10 +3348,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moumni_sound_object: {fileID: 1947791972}
-  moumni_duration: 5000
+  moumni_duration: 15
   alarm_sound_object: {fileID: 2017094251}
   light_obj: {fileID: 7140743957939123638}
-  light_duration: 500
+  light_duration: 5
 --- !u!1001 &223100829385222964
 PrefabInstance:
   m_ObjectHideFlags: 0
