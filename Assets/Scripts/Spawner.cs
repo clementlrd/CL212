@@ -42,24 +42,19 @@ public class Bubble : Object
 public class Spawner : MonoBehaviour
 {
     public Material materialRef;
-    private int compteur;
-    public float scale=1;
-    public int delay;
-    public float minSpeed;
-    public float maxSpeed;
-    public float radius;
-    public float height;
+    public float scale = 1;
+    public double delay = 0.2;
+    public float minSpeed = -0.3f;
+    public float maxSpeed = 0.3f;
+    public float radius = 5f;
+    public float height = 1f;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        compteur = 0;
-    }
+    private double compteur = 0;
 
     // Update is called once per frame
     void Update()
     {
-        if (compteur == delay)
+        if (compteur >= delay)
         {
             Bubble new_bubble = new Bubble(materialRef,scale,minSpeed,maxSpeed);
             new_bubble.sphere.transform.parent = gameObject.transform;
@@ -70,7 +65,7 @@ public class Spawner : MonoBehaviour
             new_bubble.sphere.transform.position = transform.position + new Vector3((float)randomPos1,(float)randomPos2,(float)randomPos3);
             compteur = 0;
         }
-        else { compteur++; }
+        else { compteur+= Time.deltaTime; }
         
     }
 }
