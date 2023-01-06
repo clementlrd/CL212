@@ -5,10 +5,10 @@ using UnityEngine;
 public class Controller : MonoBehaviour
 {
     public AudioSource moumni_sound_object;
-    public double moumni_duration = 15;
+    public int moumni_duration = 3000;
     public AudioSource alarm_sound_object;
     public Light light_obj;
-    public double light_duration = 5;
+    public int light_duration = 300;
 
     private string step = "start";
 
@@ -22,7 +22,8 @@ public class Controller : MonoBehaviour
         switch(step) {
             case "start":
                 if (moumni_duration > 0) {
-                    moumni_duration -= Time.deltaTime;
+                    moumni_duration--;
+                    
                 } else {
                     step = "alarm";
                 }
@@ -35,7 +36,7 @@ public class Controller : MonoBehaviour
                 break;
             case "light":
                 if (light_duration > 0) {
-                    light_duration -= Time.deltaTime;
+                    light_duration--;
                 } else {
                     step = "end";
                 }
