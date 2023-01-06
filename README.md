@@ -2,7 +2,7 @@
 Projet du cours de culture CL212 en réalité virtuelle
 
 ## Objectifs
-L'objectif du projet est de plonger le joueur dans un monde qui ressemble à première vue à celui qu'il connait, la salle de classe. Dans celui-ci, les bulles seront un élément central et les changements de décors.
+L'objectif du projet est de plonger le joueur dans un monde qui ressemble à première vue à celui qu'il connait, la salle de classe. Dans celui-ci, les bulles seront un élément central dans l'immersion. Le joueur peut interagir librement avec les bulles.
 
 ## Scénario
 Le joueur commence dans la salle de classe, rien n'a changé. Après que le cours se termine, il peut se déplacer librement avec joysticks.
