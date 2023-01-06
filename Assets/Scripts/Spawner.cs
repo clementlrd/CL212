@@ -10,7 +10,7 @@ public class Bubble : Object
     {
         sphere = GameObject.CreatePrimitive(PrimitiveType.Sphere);
         sphere.gameObject.tag = "Bubble";
-        // sphere.AddComponent<BubbleRepulse>();
+        sphere.AddComponent<BubbleRepulse>();
         CollisionDest destroyer;
         destroyer = sphere.AddComponent<CollisionDest>();
         var myref= sphere;
