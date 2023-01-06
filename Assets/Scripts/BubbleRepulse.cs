@@ -6,7 +6,7 @@ public class BubbleRepulse : MonoBehaviour
 {
     Rigidbody m_Rigidbody;
     
-    public float floatRepulseCoefficient = 1;
+    public float floatRepulseCoefficient = 0.1f;
     public float controlerMass = 2;
     
     private GameObject Player;

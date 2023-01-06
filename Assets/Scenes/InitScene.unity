@@ -251,7 +251,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8915200664793357780, guid: 20f1486e5737da2498851df643eebcbe, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8915200664793357780, guid: 20f1486e5737da2498851df643eebcbe, type: 3}
       propertyPath: m_LocalPosition.x
@@ -526,7 +526,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5550776016039436608, guid: f39a9d103c4129b42a53567f6cd8356a, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5550776016039436608, guid: f39a9d103c4129b42a53567f6cd8356a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -534,7 +534,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5550776016039436608, guid: f39a9d103c4129b42a53567f6cd8356a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.43
+      value: 0.87
       objectReference: {fileID: 0}
     - target: {fileID: 5550776016039436608, guid: f39a9d103c4129b42a53567f6cd8356a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1618,7 +1618,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5769684058183236019, guid: 3d9d70dd13fe59042ad7d53f668237b4, type: 3}
       propertyPath: delay
-      value: 10
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5769684058183236019, guid: 3d9d70dd13fe59042ad7d53f668237b4, type: 3}
       propertyPath: height
@@ -2422,7 +2422,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3659037171159376926, guid: 21ccdd26de76534449fbe897b2ee5965, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3659037171159376926, guid: 21ccdd26de76534449fbe897b2ee5965, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2466,7 +2466,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3659037171159376927, guid: 21ccdd26de76534449fbe897b2ee5965, type: 3}
       propertyPath: delay
-      value: 10
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3659037171159376927, guid: 21ccdd26de76534449fbe897b2ee5965, type: 3}
       propertyPath: height
@@ -3348,10 +3348,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moumni_sound_object: {fileID: 1947791972}
-  moumni_duration: 500
+  moumni_duration: 5000
   alarm_sound_object: {fileID: 2017094251}
   light_obj: {fileID: 7140743957939123638}
-  light_duration: 150
+  light_duration: 500
 --- !u!1001 &223100829385222964
 PrefabInstance:
   m_ObjectHideFlags: 0
